@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8">
     <title>IPT10 Laboratory Activity #3A</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+    <!-- Add the Bulma CSS here -->
 </head>
 <body>
 <section class="section">
@@ -11,7 +11,7 @@
         This is the IPT10 PHP Quiz Web Application Laboratory Activity. Please register
     </h2>
     <!-- Supply the correct HTTP method and target form handler resource -->
-    <form method="POST" action="instructions.php">
+    <form method="GET" action="pre-instructions.php">
         <div class="field">
             <label class="label">Name</label>
             <div class="control">

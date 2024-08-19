@@ -19,7 +19,7 @@ if (!is_null($answer)) {
 }
 
 // Use the compute_score() function from helpers.php
-$score = compute_score($answers);
+// $score = compute_score($answers);
 ?>
 <html>
 <head>

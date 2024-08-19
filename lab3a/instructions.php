@@ -27,11 +27,11 @@ $contact_number = $_POST['contact_number'];
     </h2>
 
     <!-- Supply the correct HTTP method and target form handler resource -->
-    <form method="POST" action="quiz.php">
-        <input type="hidden" name="complete_name" value="<?php echo $complete_name; ?>" />
-        <input type="hidden" name="email" value="<?php echo $email; ?>" />
-        <input type="hidden" name="birthdate" value="<?php echo $birthdate; ?>" />
-        <input type="hidden" name="contact_number" value="<?php echo $contact_number; ?>" />
+    <form method="POST" action="">
+        <input type="hidden" value="<?php echo $complete_name; ?>" />
+        <input type="hidden" value="<?php echo $email; ?>" />
+        <input type="hidden" value="<?php echo $birthdate; ?>" />
+        <input type="hidden" value="<?php echo $contact_number; ?>" />
 
         <!-- Display the instruction -->
         <p>
@@ -48,7 +48,7 @@ $contact_number = $_POST['contact_number'];
         <div class="field">
             <div class="control">
                 <label class="checkbox">
-                <input type="checkbox"  name="agree">
+                <input type="checkbox" name="disagree">
                 I agree to the <a href="#">terms and conditions</a>
                 </label>
             </div>

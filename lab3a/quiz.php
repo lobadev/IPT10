@@ -54,10 +54,12 @@ $options = get_options_for_question_number($current_question_number);
         <input type="hidden" name="birthdate" value="<?php echo $birthdate; ?>" />
         <input type="hidden" name="contact_number" value="<?php echo $contact_number; ?>" />
         <input type="hidden" name="agree" value="<?php echo $agree; ?>" />
-        <input type="hidden" name="answers" value="<?php echo $answers; ?>" />
+        <!--
+        <input type="hidden" name="answers" />
+        -->
 
         <!-- Display the options -->
-        <?php foreach ($options as $option): ?>
+        <?php foreach ($answers as $answer): ?>
         <div class="field">
             <div class="control">
                 <label class="radio">
