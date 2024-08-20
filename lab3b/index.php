@@ -32,6 +32,24 @@
             <input type="file" name="text_file" accept=".txt" />
             </p>
         </div>
+        <div class="p-card">
+            <h3>Audio File</h3>
+            <p class="p-card__content">
+            <input type="file" name="audio_file" accept=".mp3" />
+            </p>
+        </div>
+        <div class="p-card">
+            <h3>Video File</h3>
+            <p class="p-card__content">
+            <input type="file" name="video_file" accept=".mp4" />
+            </p>
+        </div>
+        <div class="p-card">
+            <h3>PDF File</h3>
+            <p class="p-card__content">
+            <input type="file" name="pdf_file" accept=".pdf" />
+            </p>
+        </div>
 
         <div>
             <button type="submit">
